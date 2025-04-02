@@ -4,8 +4,8 @@ import FoodList from './components/FoodList'
 
 function App() {
   return (
-    <div style={{ padding: '2rem', fontFamily: 'Arial, sans-serif' }}>
-      <h1>PawPlan 🐾</h1>
+    <div className="max-w-3xl mx-auto p-4 font-sans">
+      <h1 className="text-3xl font-bold mb-4 text-center text-blue-700">🐾 PawPlan</h1>
       <PetForm />
       <FoodList />
     </div>
